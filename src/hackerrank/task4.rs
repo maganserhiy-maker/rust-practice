@@ -1,4 +1,4 @@
-// https://www.hackerrank.com/challenges/apple-and-orange
+
 
 fn apple_and_orange(s: i32, t: i32, a: i32, b: i32, apples: &[i32], oranges: &[i32]) -> (i32, i32) {
     let apple_count = apples.iter().filter(|&&x| {
