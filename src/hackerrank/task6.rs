@@ -1,4 +1,7 @@
+#![allow(non_snake_case)]
 pub fn getTotalX(a: &[i32], b: &[i32]) -> i32 {
+
+
     let mut count = 0;
     
     let start = *a.iter().max().unwrap_or(&1);
