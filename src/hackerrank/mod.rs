@@ -3,7 +3,7 @@ mod task2;
 mod task3;
 pub(crate) mod task4;
 pub mod task5;
-mod task06;
+ mod task6;
 mod task07;
 mod task08;
 mod task09;
