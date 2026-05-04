@@ -1,10 +1,6 @@
 // https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
-/// Задача: Migratory Birds
-/// Знайти тип птаха, який зустрічається найчастіше. 
-/// Якщо таких декілька, повернути найменший ID.
-
 pub fn migratory_birds(arr: &[i32]) -> i32 {
-    let mut counts = [0; 6]; // Індекси 1-5 для типів птахів
+    let mut counts = [0; 6]; 
     
     for &bird_type in arr {
         if bird_type >= 1 && bird_type <= 5 {
@@ -37,7 +33,7 @@ mod tests {
 
     #[test]
     fn test_migratory_birds_tie() {
-        // Рівна кількість птахів типу 1 та 2. Маємо вибрати менший ID (1).
+
         let arr = vec![1, 2, 1, 2, 3];
         assert_eq!(migratory_birds(&arr), 1);
     }
