@@ -7,4 +7,4 @@ pub mod task5;
 pub mod task7;
 mod task8;
  pub mod task9;
-mod task10;
+pub mod task10;
